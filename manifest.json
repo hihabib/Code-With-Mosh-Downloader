@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Mosh Auto Downloader",
+    "name": "Mosh Downloader",
     "version": "1.0",
     "description": "Automatically downloads Mosh course videos with proper filenames.",
     "permissions": [
