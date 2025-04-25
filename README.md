@@ -75,6 +75,13 @@ You should now see the extension added to your browser.
 
 ---
 
+## 📝 Special Thanks
+
+Special thanks to [James Pavett](https://github.com/jamespavett) for the original **Code with Mosh video downloader** script that we used as the base for this extension.  
+You can check out the original script here: [https://github.com/jamespavett/Code-with-mosh](https://github.com/jamespavett/Code-with-mosh).
+
+---
+
 ## 🛡️ Disclaimer
 
 This tool is for **personal offline learning only**. Please ensure you’ve purchased the course and respect the platform's terms of service.
