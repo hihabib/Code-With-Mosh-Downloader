@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Mosh Auto Downloader",
+    "version": "1.0",
+    "description": "Automatically downloads Mosh course videos with proper filenames.",
+    "permissions": [
+      "downloads",
+      "scripting",
+      "activeTab"
+    ],
+    "host_permissions": [
+      "*://*.codewithmosh.com/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Mosh Downloader",
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.codewithmosh.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
