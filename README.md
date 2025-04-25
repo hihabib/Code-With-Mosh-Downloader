@@ -40,11 +40,13 @@ You should now see the extension added to your browser.
 
 1. **Login** to [https://codewithmosh.com](https://codewithmosh.com) and open any course.
 
-2. **Open the course page** where the full list of video lectures is visible.
+2. **Open the course page** where the full list of video lectures is visible where you can play videos
 
-3. **Click the Extension icon** in Chrome’s toolbar.
+3. Play the first video of the course
 
-4. The extension will:
+4. **Click the Extension icon** in Chrome’s toolbar.
+
+5. The extension will:
    - Go through each video in the course.
    - Download the video with a clean title.
    - Create folders by section (e.g., `1. Getting Started`, `2. React Basics`).
