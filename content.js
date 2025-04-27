@@ -35,7 +35,7 @@
 
     for (let i = 0; i < links.length; i++) {
         links[i].click();
-        await sleep(2000); // wait for video/download button to load
+        await sleep(4000); // wait for video/download button to load
 
         const downloadBtn = document.querySelector("a.download");
         if (!downloadBtn) {
@@ -58,7 +58,7 @@
             filename: filename
         });
 
-        await sleep(5000); // wait between downloads
+        await sleep(4000); // wait between downloads
     }
 
     console.log("✅ Finished downloading all lectures.");
